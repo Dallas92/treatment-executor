@@ -17,6 +17,7 @@ When the next day comes then new treatment tasks for that day will be created
 - Maven
 - H2
 - Liquibase
+- Lombok
 
 ## Running the Application
 
