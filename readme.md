@@ -1,7 +1,7 @@
 # Treatment application
 
 This is a Spring Boot application which every minute tries to get treatment plans from DB 
-and create new unique treatment tasks based on recurrence (every hour, 2 times a day, 3 times a week and etc). <br/>
+and create new unique treatment tasks based on recurrence (example: every hour, 2 times a day, 3 times a week and etc). <br/>
 
 Treatment tasks are not created ahead of time, they are only created for the day when 
 executor service was launched (there is a check for today date). 
